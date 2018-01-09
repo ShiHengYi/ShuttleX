@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:400,500,700');
+
+
+.brand-logo{
+    width: 120px;
+}
+.UniLogin_bg{
+    font-family: 'Hind';
+    background-color: #000;
+    color: #fff;
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0;
+    position: absolute;
+}
+.UniLogin_bg:after{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.UniLogin_bg #UniLogin-container{
+    z-index: 3;
+    position: relative;
+}
+
+#UniLogin-container{
+    margin-top: 20%;
+
+}
+
+
+
+

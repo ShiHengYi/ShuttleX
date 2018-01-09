@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "milaud",
+    "database": "testshuttlex",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "milaud",
+    "database": "testshuttlex",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "milaud",
+    "database": "testshuttlex",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
